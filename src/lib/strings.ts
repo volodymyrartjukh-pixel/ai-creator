@@ -1,0 +1,45 @@
+/** All user-facing strings in one place to ease future i18n. */
+export const STRINGS = {
+  hero: {
+    heading: 'For the One You Love',
+    subheading:
+      'Discover our hand-curated selection of romantic gifts, crafted to make every moment unforgettable.',
+  },
+  product: {
+    addToCart: 'Add to Cart',
+    added: 'Added ✓',
+    orderNow: 'Order Now',
+    adding: 'Adding…',
+  },
+  modal: {
+    title: 'Place Your Order',
+    orderTotal: 'Order Total',
+    product: 'Product',
+    price: 'Price',
+    fullName: 'Full Name',
+    fullNamePlaceholder: 'Jane Smith',
+    email: 'Email Address',
+    emailPlaceholder: 'jane@example.com',
+    phone: 'Phone Number',
+    phonePlaceholder: '+1 555 000 0000',
+    phoneOptional: '(optional)',
+    quantity: 'Quantity',
+    deliveryAddress: 'Delivery Address',
+    deliveryAddressPlaceholder: '123 Rose Lane, Love City, CA 90210',
+    notes: 'Additional Notes',
+    notesPlaceholder: 'Any special instructions…',
+    notesOptional: '(optional)',
+    submit: 'Place Order',
+    submitting: 'Placing Order…',
+    close: 'Close',
+    successTitle: 'Order Placed! 🎉',
+    successMessage: "Your order has been placed! We'll contact you soon.",
+    errorTitle: 'Something went wrong',
+    errorDefault: 'Unable to place your order right now. Please try again.',
+  },
+  cart: {
+    label: 'Shopping Cart',
+    empty: 'Your cart is empty.',
+    itemCount: (n: number) => `${n} item${n !== 1 ? 's' : ''}`,
+  },
+};
